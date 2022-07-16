@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/startup"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="90dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="44dp"
+        android:paddingRight="44dp">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/shape_login_btn"
+            android:text="登录"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="注册"
+            android:layout_alignParentRight="true"
+            android:textColor="#ffffff"
+            android:background="@drawable/shape_register_btn"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</RelativeLayout>
